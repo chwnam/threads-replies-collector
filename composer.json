@@ -1,0 +1,18 @@
+{
+  "name": "chwnam/threads-replies-collector",
+  "require": {
+    "php": "^8.4"
+  },
+  "authors": [
+    {
+      "name": "changwoo",
+      "email": "ep6tri@hotmail.com",
+      "homepage": "https://github.com/chwnam"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Chwnam\\TRC\\": "src/"
+    }
+  }
+}
