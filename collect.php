@@ -9,6 +9,8 @@ if ('cli' !== php_sapi_name()) {
 
 require __DIR__ . '/vendor/autoload.php';
 
+const ROOT_DIR = __DIR__;
+
 new App()
     ->run()
 ;
